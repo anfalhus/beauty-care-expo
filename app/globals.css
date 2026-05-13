@@ -1,26 +1,53 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Handicrafts";
+  src: url("/fonts/arabic/handicrafts/TheYearofHandicrafts-Regular.otf")
+    format("opentype");
+  font-weight: 400;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: "Handicrafts";
+  src: url("/fonts/arabic/handicrafts/TheYearofHandicrafts-Medium.otf")
+    format("opentype");
+  font-weight: 500;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "Handicrafts";
+  src: url("/fonts/arabic/handicrafts/TheYearofHandicrafts-SemiBold.otf")
+    format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Handicrafts";
+  src: url("/fonts/arabic/handicrafts/TheYearofHandicrafts-Bold.otf")
+    format("opentype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Handicrafts";
+  src: url("/fonts/arabic/handicrafts/TheYearofHandicrafts-Black.otf")
+    format("opentype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Qahwa";
+  src: url("/fonts/arabic/qahwa/alfont_com_Qahwa-Arabic-Bold.otf") format("opentype");
+}
+
+.font-qahwa {
+  font-family: "Qahwa", sans-serif !important;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Handicrafts", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
 }
