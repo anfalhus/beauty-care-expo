@@ -38,7 +38,7 @@ export default function HeroSection() {
 
           <div className="text-center mt-20 md:mt-22">
 
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-qahwa text-[#FFD7DF]" data-aos="fade-down" data-aos-delay="0">
+            <h1 className="text-6xl sm:text-6xl md:text-7xl lg:text-8xl font-qahwa text-[#FFD7DF]" data-aos="fade-down" data-aos-delay="0">
               لحَظات
               <br />
               يصُوغها
@@ -76,7 +76,7 @@ export default function HeroSection() {
             <p className='font-light text-xs md:text-sm'data-aos="fade-left" data-aos-offset="100" data-aos-duration="900" data-aos-delay="200">
               get to know art from
               <br />
-              a closer perspective
+              a closer perspective 
             </p>
 
             <Image src="/images/spark.png" alt="Beauty Care Expo" width={15} height={15} priority data-aos="fade-left" data-aos-offset="100" data-aos-duration="900" data-aos-delay="300" />
@@ -122,7 +122,7 @@ export default function HeroSection() {
 
             <p className='font-light text-xs md:text-sm'>
               in middle of Al Ahsa
-              <br />
+              <br/>
               InterContinental Al Ahsa Hotel
             </p>
 

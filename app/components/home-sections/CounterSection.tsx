@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function CounterSection() {
-  const targetDate = new Date("2026-07-22T00:00:00").getTime();
+  const targetDate = new Date("2026-10-01T00:00:00").getTime();
 
   const [timeLeft, setTimeLeft] = useState({
     days: "00",
@@ -66,21 +66,21 @@ export default function CounterSection() {
         كُن جزءًا من هذه التجربة الاستثنائيــــة
       </h3>
 
-      <h1 className="text-2xl sm:text-4xl font-bold text-[#9DAA8B] leading-snug mt-2" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
+      <h1 className="text-2xl sm:text-4xl font-bold text-[#9DAA8B] leading-snug mt-2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
 متبقي لإنطلاق المعرض
       </h1>
 
       {/* Countdown */}
-      <div className="flex gap-3 sm:gap-5 mt-6" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+      <div className="flex gap-3 sm:gap-5 mt-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
         <Box value={timeLeft.days} label="يوم"/>
         <Box value={timeLeft.hours} label="ساعة" />
         <Box value={timeLeft.minutes} label="دقيقة" />
         <Box value={timeLeft.seconds} label="ثانية" />
       </div>
 
-            <p className="text-gray-700 text-sm sm:text-base max-w-md mt-7" data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
-         - إبتــــداءًا من 22 يوليــو حتى 26 يوليــو 2026 -
-      </p>
+            <p className="text-gray-800 text-sm sm:text-base max-w-md mt-7" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+خلال الفترة من 1 — 5 أكتوبر 2026    
+  </p>
       <Image
   src="/images/logos/mini-green-logo.png"
   alt="Beauty Care Expo"

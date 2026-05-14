@@ -40,13 +40,12 @@ export default function LocationSection() {
           items-center
           text-center
           md:text-right
-        "
-        data-aos="fade-up"
+        ">
+        <p className="text-sm md:text-base"
+         data-aos="fade-right"
         data-aos-offset="0"
         data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-      >
-        <p className="text-sm md:text-base">
+        data-aos-easing="ease-in-out">
           فندق الانتركونتيننتال الاحساء - المنطقة الشرقية - المملكة العربية السعودية
         </p>
 
@@ -55,7 +54,10 @@ export default function LocationSection() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="border border-white rounded-full px-6 py-1 text-sm">
+          <button className="border border-white rounded-full px-6 py-1 text-sm"  data-aos="fade-left"
+        data-aos-offset="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
             افتح الموقع في خرائط جوجل
           </button>
         </a>

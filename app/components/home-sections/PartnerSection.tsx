@@ -54,7 +54,7 @@ export default function PartnerSection() {
             onSubmit={handleSubmit}
             className="
               pt-20
-              px-4
+              px-15
               flex
               flex-col
               items-center
@@ -64,11 +64,11 @@ export default function PartnerSection() {
             "
           >
 
-            <p className="text-sm text-[#F4A6B6] font-bold">
+            <p className="text-sm text-[#F4A6B6] font-bold" data-aos="fade-down" data-aos-offset="100" data-aos-duration="1000">
               هل توّد أن تكـــون
             </p>
 
-            <h2 className="text-[#9DAA8B] text-2xl md:text-3xl font-bold text-center">
+            <h2 className="text-[#9DAA8B] text-2xl md:text-3xl font-bold text-center" data-aos="fade-down" data-aos-offset="250" data-aos-duration="1000">
               شريك نجاحنا القادم؟
             </h2>
 
@@ -113,7 +113,7 @@ export default function PartnerSection() {
                 py-3
                 px-4
                  bg-[#fff9f9]
-                text-gray-700
+                text-gray-500
                 transition
                 duration-300
               "
@@ -170,11 +170,11 @@ export default function PartnerSection() {
                 text-white
                 font-bold
                 py-2
-                px-6
+                px-5
                 rounded-xl
                 transition
                 w-full
-                md:w-auto
+                md:w-[60%]
                 mt-4
                 disabled:opacity-70
               "
