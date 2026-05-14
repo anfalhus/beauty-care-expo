@@ -1,12 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import Navbar from "../components/basic/Navbar";
+import NavbarPartner from "../components/basic/NavbarPartner";
+
 
 export default function Page() {
   return (
     <div>
-      <Navbar forceDark/>
+      <NavbarPartner forceDark/>
    
     <section
       className="
@@ -132,10 +133,3 @@ export default function Page() {
      </div>
   );
 }
-// import React from 'react'
-
-// export default function page() {
-//   return (
-//     <div>page</div>
-//   )
-// }

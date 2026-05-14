@@ -1,14 +1,14 @@
-type MobileMenuProps = {
+type MobileMenuPartnerProps = {
   isOpen: boolean;
   scrolled: boolean;
   forceDark?: boolean;
 };
 
-export default function MobileMenu({
+export default function MobileMenuPartner({
   isOpen,
   scrolled,
   forceDark = false,
-}: MobileMenuProps) {
+}: MobileMenuPartnerProps) {
 
   const textColor =
     forceDark || scrolled
@@ -41,23 +41,23 @@ export default function MobileMenu({
         }
       `}
     >
-      <a href="#activities" className={`hover:text-[#F4A6B6] transition ${textColor}`}>
+      <a href="\#activities" className={`hover:text-[#F4A6B6] transition ${textColor}`}>
         البرامج والفعاليات
       </a>
 
-      <a href="#book" className={`hover:text-[#F4A6B6] transition ${textColor}`}>
+      <a href="\#book" className={`hover:text-[#F4A6B6] transition ${textColor}`}>
         احجز تذكرتك
       </a>
 
-      <a href="#location" className={`hover:text-[#F4A6B6] transition ${textColor}`}>
+      <a href="\#location" className={`hover:text-[#F4A6B6] transition ${textColor}`}>
         موقع المعرض
       </a>
 
-      <a href="#ourpartner" className={`hover:text-[#F4A6B6] transition ${textColor}`}>
+      <a href="\#ourpartner" className={`hover:text-[#F4A6B6] transition ${textColor}`}>
         كُن شريكنا القادم
       </a>
 
-      <a href="#contactus" className={`hover:text-[#F4A6B6] transition ${textColor}`}>
+      <a href="\#contactus" className={`hover:text-[#F4A6B6] transition ${textColor}`}>
         تواصل معنا
       </a>
 

@@ -140,7 +140,7 @@ export default function HeroSection() {
               يبدأ المعرض في
               <br />
               <span dir='ltr'>
-                22 Jul 2026
+                1 oct 2026
               </span>
             </p>
             <p className='font-light text-xs md:text-sm'>
